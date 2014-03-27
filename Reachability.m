@@ -108,7 +108,7 @@
 
 NSString *const kInternetConnection  = @"InternetConnection";
 NSString *const kLocalWiFiConnection = @"LocalWiFiConnection";
-NSString *const kReachabilityChangedNotification = @"NetworkReachabilityChangedNotification";
+NSString *const kReachabilityChangedNotification = @"KANetworkReachabilityChangedNotification";
 
 #define CLASS_DEBUG 1 // Turn on logReachabilityFlags. Must also have a project wide defined DEBUG.
 
