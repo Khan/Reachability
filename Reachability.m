@@ -431,7 +431,7 @@ const SCNetworkReachabilityFlags kConnectionDown =  kSCNetworkReachabilityFlagsC
 // than mine. My code covers the cases that occur.
 //
 - (NetworkStatus) networkStatusForFlags: (SCNetworkReachabilityFlags) flags {
-	
+	return kReachableViaWiFi;
 	if (flags & kSCNetworkReachabilityFlagsReachable) {
 		
 		// Local WiFi -- Test derived from Apple's code: -localWiFiStatusForFlags:.
